@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero Section with Navbar</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Assets/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+      <div class="container">
+        <a class="navbar-brand logo" href="#">
+          <img src="./Assets/Images/logo.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Programs</a>
+            </li>
+            <li class="nav-item ml-2">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item ml-2">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item ml-2">
+              <a class="nav-link" href="#">Connect</a>
+            </li>
+            <li class="nav-item ml-2">
+              <a
+                class="nav-link btn btn-dark text-white px-4"
+                id="donate-button"
+                href="#"
+              >
+                Donate
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide"
+            style="
+              background: url('./Assets/Images/Banner.jpeg') no-repeat center
+                center/cover;
+            "
+          >
+            <div class="container bottomTextBox">
+              <div class="row">
+                <div class="col-md-5 text-section">
+                  <h1 class="font-weight-bold">
+                    THE ALL-IN-ONE WIRE FRAMING KIT
+                  </h1>
+                  <p>
+                    Nec massa viverra eget feugiat pellentesque. Feugiat
+                    adipiscing massa vitae auctor mi mass Nec massa viverra eget
+                    feugiat pellentesque. Feugiat adipiscing massa vitae auctor
+                    mi mass
+                  </p>
+                  <div class="donate-button mt-5">
+                    <button id="donate-button">Donate</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide"
+            style="
+              background: url('./Assets/Images/bg2.jpg') no-repeat center
+                center/cover;
+            "
+          >
+            <div class="container bottomTextBox">
+              <div class="row">
+                <div class="col-md-5 text-section">
+                  <h1 class="font-weight-bold">
+                    THE ALL-IN-ONE WIRE FRAMING KIT
+                  </h1>
+                  <p>
+                    Nec massa viverra eget feugiat pellentesque. Feugiat
+                    adipiscing massa vitae auctor mi mass Nec massa viverra eget
+                    feugiat pellentesque. Feugiat adipiscing massa vitae auctor
+                    mi mass
+                  </p>
+                  <div class="donate-button mt-5">
+                    <button id="donate-button">Donate</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide"
+            style="
+              background: url('./Assets/Images/bg3.jpg') no-repeat center
+                center/cover;
+            "
+          >
+            <div class="container bottomTextBox">
+              <div class="row">
+                <div class="col-md-5 text-section">
+                  <h1 class="font-weight-bold">
+                    THE ALL-IN-ONE WIRE FRAMING KIT
+                  </h1>
+                  <p>
+                    Nec massa viverra eget feugiat pellentesque. Feugiat
+                    adipiscing massa vitae auctor mi mass Nec massa viverra eget
+                    feugiat pellentesque. Feugiat adipiscing massa vitae auctor
+                    mi mass
+                  </p>
+                  <div class="donate-button mt-5">
+                    <button id="donate-button">Donate</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <section class="results-section">
+      <div class="container">
+        <div>
+          <div class="row">
+            <div class="col-md-5">
+              <img
+                src="./Assets/Images/boysCycling.png"
+                alt="Children with Bicycle near water"
+              />
+            </div>
+            <div class="col-md-7">
+              <div class="text-section">
+                <h2>OUR RESULTS IN NUMBERS</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit eget
+                  quamumto.
+                </p>
+                <div class="stats">
+                  <div class="stat">
+                    <h1 class="count1 count-up" data-target="99">
+                      0<span>%</span>
+                    </h1>
+                    <p>Customer satisfaction</p>
+                  </div>
+                  <div class="stat">
+                    <h1 class="count2 count-up" data-target="32">
+                      0<span>M</span>
+                    </h1>
+                    <p>Active users</p>
+                  </div>
+                  <div class="stat">
+                    <h1 class="count3 count-up" data-target="125">
+                      0<span>+</span>
+                    </h1>
+                    <p>Team members</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs-section py-5">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="font-weight-bold">PROGRAMS</h2>
+          <p class="mx-auto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a justo
+            auctor, vehicula sem et, tristique mi. Aenean cursus turpis et erat
+            suscipit, ac imperdiet nibh facilisis. Sed tincidunt enim quis
+            aliquam ornare.
+          </p>
+        </div>
+
+        <div class="row my-5">
+          <div class="col-md-12">
+            <img
+              src="./Assets/Images/kidWashingHands.png"
+              alt="First Program Image"
+              class="img-fluid w-100 rounded mb-3"
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a
+              justo auctor, vehicula sem et, tristique mi. Aenean cursus turpis
+              et erat suscipit, ac imperdiet nibh facilisis. Sed tincidunt enim
+              quis aliquam ornare. Vivamus ut urna elementum, auctor purus sit
+              amet, vulputate ipsum. Ut dictum semper arcu, non vehicula enim
+              cursus et urna elementum, auctor purus sit amet.
+            </p>
+          </div>
+        </div>
+
+        <div class="row my-5">
+          <div class="col-md-12">
+            <img
+              src="./Assets/Images/kidsWatterBottels.png"
+              alt="Second Program Image"
+              class="img-fluid w-100 rounded mb-3"
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a
+              justo auctor, vehicula sem et, tristique mi. Aenean cursus turpis
+              et erat suscipit, ac imperdiet nibh facilisis. Sed tincidunt enim
+              quis aliquam ornare. Vivamus ut urna elementum, auctor purus sit
+              amet, vulputate ipsum. Ut dictum semper arcu, non vehicula enim
+              cursus et urna elementum, auctor purus sit amet.
+            </p>
+          </div>
+        </div>
+        <div class="text-center">
+          <a href="#" class="btn btn-outline-dark">Know More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Help Section -->
+    <section class="help-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="font-weight-bold text-white">
+              Do good any time,<br />they still need <br />your help a lot
+            </h1>
+            <p class="text-light mt-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a
+              justo auctor, vehicula sem et, tristique mi. Aenean cursus turpis
+              ut erat suscipit, ac imperdiet nibh facilisis.
+            </p>
+          </div>
+          <div class="col-md-6 imgs">
+            <div class="image-row">
+              <div class="w-40">
+                <img src="./Assets/Images/29.png" alt="Ultra Clear" />
+              </div>
+              <div class="w-40">
+                <img
+                  src="./Assets/Images/images-removebg-preview.png"
+                  alt="Hyper Best"
+                />
+              </div>
+            </div>
+            <div class="image-row">
+              <div class="w-40">
+                <img src="./Assets/Images/29.png" alt="Ultra Clear" />
+              </div>
+              <div class="w-40">
+                <img
+                  src="./Assets/Images/images-removebg-preview.png"
+                  alt="Hyper Best"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- news Letter  -->
+    <section class="newsletter-section">
+      <div class="container text-center">
+        <div class="news">
+          <h2 class="mb-3">SUBSCRIBE TO OUR NEWSLETTER</h2>
+          <p class="mb-4">
+            Rhoncus morbi et augue nec, in id ullamcorper at sit. Condimentum
+            sit nunc in eros scelerisque sed. Commodo in viverra nunc,
+            ullamcorper ut. Non, amet, aliquet scelerisque nullam sagittis,
+            pulvinar.
+          </p>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <div class="input-group">
+                <span class="input-group-text bg-light"
+                  ><i class="bi bi-envelope"></i
+                ></span>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email to get the latest news..."
+                />
+                <button class="btn btn-warning" type="button">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="donation-section" class="donation-section">
+      <div class="donation-form">
+        <h1 class="font-weight-bold">Your Donation will make a difference</h1>
+
+        <div class="donation-options">
+          <button id="one-time" class="tenure-btn">One Time</button>
+          <button id="monthly" class="tenure-btn">Monthly</button>
+        </div>
+
+        <div class="donation-amounts">
+          <label>
+            <input type="radio" name="amount" value="2500" /> ₹2500
+          </label>
+          <label>
+            <input type="radio" name="amount" value="5000" /> ₹5000
+          </label>
+          <label>
+            <input type="radio" name="amount" value="10000" /> ₹10000
+          </label>
+        </div>
+
+        <div class="donation-to">
+          <label for="donation-to-select">Donate to:</label>
+          <select id="donation-to-select">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+        </div>
+
+        <div class="donation-comment">
+          <label for="donation-comment-textarea">Leave a Comment:</label>
+          <textarea id="donation-comment-textarea" rows="3"></textarea>
+        </div>
+
+        <div class="donate-button">
+          <button id="donate-btn">Donate</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer text-center py-3">
+      <div class="container">
+        <div class="row mb-2">
+          <div class="col-md-3">
+            <div class="logo">
+              <img src="./Assets/Images/logo.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-5">
+            <a href="#" class="px-2">Eleven</a>
+            <a href="#" class="px-2">Twelve</a>
+            <a href="#" class="px-2">Thirteen</a>
+            <a href="#" class="px-2">Fourteen</a>
+            <a href="#" class="px-2">Fifteen</a>
+            <a href="#" class="px-2">Sixteen</a>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex justify-content-center mt-2">
+              <a href="#" class="px-2"><i class="bi bi-youtube"></i></a>
+              <a href="#" class="px-2"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="px-2"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="px-2"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="px-2"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <p class="mb-0">CompanyName © 202X. All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="./Assets/Js/index.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
